@@ -3,29 +3,58 @@ body{
 	font: 16px Bahnschrift Condensed;
 }
 
-#principal {
-	width: 900px;
-}
-
-#logotipo {
-	text-indent: 0;
-}
 
 #menu {
 	background: #ff5900;
-	float: center;
-	height: 70px;;
-	padding: 0;
+	width: 50%;
+	float: left;
+	height: 90px;;
 	border: none;
-	text-align: center;
 	display:inline-block; 
-	line-height: 40px;
+	line-height: 0px;
 }
 
-#menu ul ul {
+#menu a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 30px;
+	display:inline-block;
+  }
+  #menu  ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+  }
+  #menu ul li {display: inline-block;}
+  
+  #menu ul li:hover {background: #ff5900;}
+  
+  #menu ul li:hover ul {display: block;}
+  
+  #menu ul li ul {
+	position: absolute;
+	width: 200px;
 	display: none;
-}
+  }
 
-#menu ul li:hover > ul{
-	display: block;
-}
+  #menu ul li ul li { 
+	background: #ff59005d; 
+	display: block; 
+  }
+  #submenu {
+	background: #ff5900;
+	width: 20%;
+	float: right;
+	border: none;
+	display:inline-block; 
+	line-height: 0px;
+  }
+
+  #submenu a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 35px;
+	display:inline-block;
+  }
