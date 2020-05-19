@@ -1,0 +1,31 @@
+body{
+	background: #fffff;
+	font: 16px Bahnschrift Condensed;
+}
+
+#principal {
+	width: 900px;
+}
+
+#logotipo {
+	text-indent: 0;
+}
+
+#menu {
+	background: #ff5900;
+	float: center;
+	height: 70px;;
+	padding: 0;
+	border: none;
+	text-align: center;
+	display:inline-block; 
+	line-height: 40px;
+}
+
+#menu ul ul {
+	display: none;
+}
+
+#menu ul li:hover > ul{
+	display: block;
+}
