@@ -1,17 +1,17 @@
 body{
-	background: #fffff;
 	font: 16px Bahnschrift Condensed;
+	height: 1200px;
 }
-
 
 #menu {
 	background: #ff5900;
 	width: 50%;
 	float: left;
-	height: 90px;;
+	height: 90px;
 	border: none;
 	display:inline-block; 
 	line-height: 0px;
+	z-index: 1;
 }
 
 #menu a {
@@ -20,6 +20,7 @@ body{
 	font-size: 20px;
 	padding: 30px;
 	display:inline-block;
+	z-index: 2;
   }
   #menu  ul {
 	display: inline;
@@ -36,6 +37,7 @@ body{
 	position: absolute;
 	width: 200px;
 	display: none;
+	z-index: 3;
   }
 
   #menu ul li ul li { 
@@ -58,3 +60,20 @@ body{
 	padding: 35px;
 	display:inline-block;
   }
+
+  #imag {
+	background: #ff5900;
+	position: absolute;
+	width: 100%;
+  }
+ .carousel-inner{
+	height: 400px;
+  }
+
+}#pag {
+	background: #ff5900;
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	padding: 35px;
+}
