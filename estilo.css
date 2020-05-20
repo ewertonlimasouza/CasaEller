@@ -3,6 +3,10 @@ body{
 	height: 1200px;
 }
 
+.h5 {
+	color: white;
+}
+
 #menu {
 	background: #ff5900;
 	width: 50%;
@@ -21,7 +25,9 @@ body{
 	padding: 30px;
 	display:inline-block;
 	z-index: 2;
-  }
+  }	 
+
+
   #menu  ul {
 	display: inline;
 	margin: 0;
@@ -29,7 +35,8 @@ body{
   }
   #menu ul li {display: inline-block;}
   
-  #menu ul li:hover {background: #ff5900;}
+  
+  //#menu ul li:hover {background: #aa2828;}
   
   #menu ul li:hover ul {display: block;}
   
@@ -40,31 +47,37 @@ body{
 	z-index: 3;
   }
 
-  #menu ul li ul li { 
-	background: #ff59005d; 
+ #menu ul li ul li { 
+	background: #ff5900; 
 	display: block; 
   }
   #submenu {
-	background: #ff5900;
 	width: 20%;
 	float: right;
 	border: none;
 	display:inline-block; 
 	line-height: 0px;
+	z-index: 4;
   }
 
   #submenu a {
 	text-decoration: none;
-	color: white;
 	font-size: 20px;
-	padding: 35px;
+	padding: 30px;
 	display:inline-block;
+	top: 0px;
+	z-index: 5;
   }
+
+  #submenu ul li {display: inline-block;}  
+  
+  //#submenu ul li:hover {background: #aa2828;}
 
   #imag {
 	background: #ff5900;
 	position: absolute;
 	width: 100%;
+	top: 105px;
   }
  .carousel-inner{
 	height: 400px;
@@ -76,4 +89,24 @@ body{
 	height: 800px;
 	position: absolute;
 	padding: 35px;
+}
+
+#pesquisa {
+	background: #ffffffb4;
+	position: absolute;
+	height: 400px;
+	width: 16%;
+	top: 530px;
+	left: 15px;
+	float: left;
+}
+
+#recente {
+	background: #ffffffb4;
+	position: absolute;
+	height: 400px;
+	width: 80%;
+	top: 530px;
+	right: 15px;
+	float: right;
 }

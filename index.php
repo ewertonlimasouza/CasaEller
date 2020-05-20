@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" type="text/css" href="botoes.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,18 +15,18 @@
   </head>
   
   <body style="background-color:#ff5900; font:16px Bahnschrift Condensed";>
-    <div class="w3-container" style="background-color:#ff5900">
+    <div class="w3-container" style="background-color:#ff5900; height:92px;">
 
           <div id="menu">
           
             <h5>
-              <a><img src="imagens/logo.png"></a>
-                <a href="index.html">Sobre</a>
-                <a href="equipe.html">Equipe</a>
-                <a href="imoveis.html">Imoveis</a>
+                <a><img src="imagens/logo.png"></a>
+                <ul><li><a href="index.php" class="btn btn-white btn-animation-1">Sobre</a></li></ul>
+                <ul><li><a href="equipe.html" class="btn btn-white btn-animation-1">Equipe</a></li></ul>
+                <ul><li><a href="imoveis.html" class="btn btn-white btn-animation-1">Imoveis</a></li></ul>
                 <ul>
                   <li>
-                    <a href="#">Serviços</a>
+                    <a href="#" class="btn btn-white btn-animation-1">Serviços</a>
                     <ul>
                       <li><a href="encomendas.html">Encomendas</a></li>
                       <li><a href="registros.html">Registros</a></li>
@@ -36,8 +37,8 @@
               </h5>
            </div> 
             <div id="submenu">
-          <h5>
-              <a href="contato">Contato</a>  
+            <h5>
+            <ul><li><a href="contato.html" class="btn btn-white btn-animation-1">Contato</a></li></ul>  
             </h5>              
           </div>
         </div>
@@ -77,7 +78,11 @@
             </a>
           </div>
         </div>
-      </div>
-    
-   </body>
+        <div id="pesquisa">
+
+        </div>
+        <div id="recente">
+          
+        </div>
+  </body>
 </html>
