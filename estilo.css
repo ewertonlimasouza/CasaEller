@@ -110,21 +110,25 @@ body{
 }
 
 #pesquisa {
-	background: #ffffffb4;
+	background: #ff5900;
 	position: absolute;
 	height: 400px;
 	width: 16%;
-	top: 530px;
+	top: 510px;
 	left: 15px;
 	float: left;
+	border-radius: 15px;
+	border-style: outset;
 }
 
 #recente {
-	background: #ffffffb4;
+	background: #ff5900;
 	position: absolute;
 	height: 400px;
 	width: 80%;
-	top: 530px;
+	top: 510px;
 	right: 15px;
 	float: right;
+	border-radius: 15px;
+	border-style: outset;
 }
