@@ -7,6 +7,14 @@ body{
 	color: white;
 }
 
+
+
+
+  /**********Menu*******/
+
+
+
+
 #menu {
 	background: #ff5900;
 	width: 50%;
@@ -51,13 +59,15 @@ body{
 	background: #ff59007e; 
 	display: block; 
   }
-  #submenu {
+
+/**********Submemnu*******/
+
+#submenu {
 	width: 20%;
 	float: right;
 	border: none;
-	display:inline-block; 
 	line-height: 0px;
-	z-index: 4;
+	z-index: 1;
   }
 
   #submenu a {
@@ -66,12 +76,16 @@ body{
 	padding: 30px;
 	display:inline-block;
 	top: 0px;
-	z-index: 5;
+	z-index: 1;
   }
 
-  #submenu ul li {display: inline-block;}  
-  
-  //#submenu ul li:hover {background: #aa2828;}
+  #submenu ul li {display: inline-block;} 
+    
+  #submenu ul li:hover a {color: #ffffff;}
+
+
+
+  /**********Imagens*******/
 
   #imag {
 	background: #ff5900;
