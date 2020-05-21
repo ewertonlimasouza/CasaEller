@@ -15,12 +15,16 @@
 </head>
 
 <body style="background-color:#ffffff; font:16px Bahnschrift Condensed" ;>
+
   <div class="w3-container" style="background-color:#ff5900; height:100px;">
+  
+  <div id="imgs">
+  <a><img src="imagens/logov.jpg"></a>
+  </div>
 
     <div id="menu">
 
       <h5>
-        <a><img src="imagens/logo.png"></a>
         <ul>
           <li><a href="index.php" class="btn btn-white btn-animation-1">Sobre</a></li>
         </ul>
