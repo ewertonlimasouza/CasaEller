@@ -44,7 +44,7 @@ body{
   #menu ul li {display: inline-block;}
   
   
-  //#menu ul li:hover {background: #aa2828;}
+  #menu ul li:hover a{background: #ac2020;}
   
   #menu ul li:hover ul {display: block;}
   
@@ -56,7 +56,7 @@ body{
   }
 
  #menu ul li ul li { 
-	background: #ff59007e; 
+	background:  #ac2020;; 
 	display: block; 
   }
 
@@ -81,7 +81,11 @@ body{
 
   #submenu ul li {display: inline-block;} 
     
-  #submenu ul li:hover a {color: #ffffff;}
+  #submenu ul li:hover a {
+	  background: #ac2020;;
+	  color: #ffffff;
+	
+	}
 
 
 
