@@ -14,8 +14,8 @@
   <meta charset="utf-8">
 </head>
 
-<body style="background-color:#ff5900; font:16px Bahnschrift Condensed" ;>
-  <div class="w3-container" style="background-color:#ff5900; height:92px;">
+<body style="background-color:#ffffff; font:16px Bahnschrift Condensed" ;>
+  <div class="w3-container" style="background-color:#ff5900; height:100px;">
 
     <div id="menu">
 
@@ -98,7 +98,7 @@
         
       <div>
 
-          <label for="fname">Código</label>
+          <label for="fname">Tipo</label>
           <input type="text" id="fname" name="fname"><br><br>
           <input type="submit" value="Submit">
       

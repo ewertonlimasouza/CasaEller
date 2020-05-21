@@ -19,7 +19,7 @@ body{
 	background: #ff5900;
 	width: 50%;
 	float: left;
-	height: 90px;
+	height: 100px;
 	border: none;
 	display:inline-block; 
 	line-height: 0px;
@@ -92,7 +92,7 @@ body{
   /**********Imagens*******/
 
   #imag {
-	background: #ff5900;
+	background: #ffffff;
 	position: absolute;
 	width: 100%;
 	top: 105px;
