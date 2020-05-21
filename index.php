@@ -28,7 +28,6 @@
                   <li>
                     <a href="#" class="btn btn-white btn-animation-1">Serviços</a>
                     <ul>
-                      <li><a href="encomendas.html">Encomendas</a></li>
                       <li><a href="registros.html">Registros</a></li>
                       <li><a href="segutos.html">Seguros</a></li>
                     </ul>
